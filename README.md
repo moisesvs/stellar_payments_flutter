@@ -2,7 +2,7 @@
 
 ![Stellar logo](./art/stellar-logo.png)
 
-A Flutter Application based on gateway Stella blockchain. You can set the origin account (Testnet) and destination account in order to process the transation in Stellar Blockchain.
+A Flutter Application based on gateway Stellar blockchain. You can set the origin account (Testnet) and destination account in order to process the transation in Stellar Blockchain.
 
 This application has been built with Flutter supporting on Stellar SDK to connect with Stellar blockchain.
 
