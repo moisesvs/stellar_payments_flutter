@@ -16,6 +16,12 @@ To run (Android):
 
 ```sh
 flutter run apk
+
+```
+To run (iOS):
+
+```sh
+flutter run ios
 ```
 
 To run (MacOS):
@@ -27,13 +33,7 @@ flutter run mac
 To run (Web / Chrome / Brave):
 
 ```sh
-flutter run web
-```
-
-To run (Web / Chrome / Brave):
-
-```sh
-flutter run web
+flutter run chrome
 ``` 
 
 
