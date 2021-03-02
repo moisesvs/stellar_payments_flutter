@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:stellar_crypto_app/pages/LoginPage.dart';
+import './pages/StartPage/StartPage.dart';
+import './pages/InfoAccount/InfoAccount.dart';
+import './pages/CreateAccount/CreateAccount.dart';
+import './pages/MakeTransaction/MakeTransactions.dart';
 import './data/StellarDao.dart';
 import './data/TransferenceUser.dart';
 void main() {
@@ -22,7 +25,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
-      home: LoginPage(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) =>  StartPage(),
+        '/infoAccount': (context) => InfoAccount(),
+        '/createAccount': (context) => CreateAccount(),
+        '/makeTransaction': (context) => MakeTransactions(),
+      },
     );
   }
 }

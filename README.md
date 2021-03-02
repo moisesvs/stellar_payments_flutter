@@ -16,8 +16,8 @@ To run (Android):
 
 ```sh
 flutter run apk
-
 ```
+
 To run (iOS):
 
 ```sh
@@ -34,10 +34,7 @@ To run (Web / Chrome / Brave):
 
 ```sh
 flutter run chrome
-``` 
-
-
-
+```
 
 A few resources to get you started if this is your first Flutter project:
 

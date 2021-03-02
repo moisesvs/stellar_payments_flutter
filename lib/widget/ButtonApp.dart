@@ -25,7 +25,7 @@ class _ButtonLoginState extends State<ButtonApp> {
       child: Container(
         alignment: Alignment.bottomLeft,
         height: 50,
-        width: MediaQuery.of(context).size.width / 3,
+        width: MediaQuery.of(context).size.width / 2,
         decoration: BoxDecoration(
           boxShadow: [
             BoxShadow(
@@ -41,7 +41,7 @@ class _ButtonLoginState extends State<ButtonApp> {
           color: Colors.white,
           borderRadius: BorderRadius.circular(30),
         ),
-        child: FlatButton(
+        child: TextButton(
           onPressed: onPressed,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,

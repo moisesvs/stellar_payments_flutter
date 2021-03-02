@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stellar_crypto_app/data/TransferenceUser.dart';
 import 'package:stellar_crypto_app/widget/InputAccount.dart';
-
 import 'ButtonApp.dart';
 
 class StepperLogin extends StatefulWidget {

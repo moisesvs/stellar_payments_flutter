@@ -1,18 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class TextLogin extends StatefulWidget {
+class TextInfoTheme extends StatefulWidget {
+
+  String text;
+
+  TextInfoTheme({this.text, key : Key}): super(key: key);
+
   @override
-  _TextLoginState createState() => _TextLoginState();
+  _TextLoginState createState() => _TextLoginState(text : this.text);
 }
 
-class _TextLoginState extends State<TextLogin> {
+class _TextLoginState extends State<TextInfoTheme> {
+
+  String text;
+
+  _TextLoginState ({this.text});
+
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(top: 30.0, left: 10.0),
       child: Container(
-        //color: Colors.green,
         height: 200,
         width: 200,
         child: Column(
@@ -22,7 +31,7 @@ class _TextLoginState extends State<TextLogin> {
             ),
             Center(
               child: Text(
-                'A world of possibility in an app',
+                this.text,
                 style: TextStyle(
                   fontSize: 24,
                   color: Colors.white,

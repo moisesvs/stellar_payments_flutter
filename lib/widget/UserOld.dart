@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../pages/LoginPage.dart';
 
 class UserOld extends StatelessWidget {
   @override
@@ -22,8 +21,8 @@ class UserOld extends StatelessWidget {
             FlatButton(
               padding: EdgeInsets.all(0),
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => LoginPage()));
+                //Navigator.push(context,
+                    //MaterialPageRoute(builder: (context) => StartPage()));
               },
               child: Text(
                 'Sing in',

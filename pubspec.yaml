@@ -1,7 +1,7 @@
 name: stellar_crypto_app
 description: Stellar project to make transactions
-
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -11,8 +11,7 @@ dependencies:
     sdk: flutter
 
   stellar_flutter_sdk:  ^1.1.0
-  shared_preferences:   ^0.5.12+4
-  flutter_svg: ^0.19.2+1
+  flutter_svg:          ^0.19.3
   
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -20,8 +19,6 @@ dependencies:
 
 dev_dependencies:
   flutter_test:
-    sdk: flutter
-  integration_test:
     sdk: flutter
 
 # For information on the generic Dart part of this file, see the
